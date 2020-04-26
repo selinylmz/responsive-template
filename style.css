@@ -43,6 +43,7 @@ nav{
     padding-bottom: 2.4rem;
     position: fixed;/*position fixed yapınca width:100%, position:fixed verince akıştan çıkar*/
     width: 100%;
+    z-index: 500;
 }
 #logo-box .logo{
     color: #fff;
@@ -88,4 +89,35 @@ header{
 header h1{
     color:#fff;
     font-size: 7.6rem;
+}
+header h2{
+    color:#fff;
+    font-size: 2.8rem;
+    font-family: 'Lato';
+    font-weight: 300;
+
+}
+/*star-light*/
+.star-light{
+    border: none;
+    border-top: .4rem solid #fff;
+    max-width: 25rem;
+    margin:2.5rem auto;
+    overflow: visible;
+    height: 0;
+    
+}
+.star-light::after{
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -25px;
+    background-color:#18bc9c;
+    padding-left:  0.8rem ;
+    padding-right: 0.8rem;
+    
+
 }
