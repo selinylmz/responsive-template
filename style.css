@@ -36,6 +36,12 @@ a{
     height: auto;
 
 }
+section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+
+}
 
 .container{
     width: 1140px;
@@ -147,12 +153,6 @@ border-color: #2C3E50;
     background-color:#fff;
 }
 /*portfolio*/
-#portfolio{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-align: center;
-
-}
 #portfolio h2{
     font-size: 4.8rem;
     color:#2C3E50;
@@ -194,4 +194,30 @@ border-color: #2C3E50;
 }
 .portfolio-item:hover .img-overlay{
     opacity: 0.8;
+}
+#about{
+    background-color: #18bc9c;
+    color: #fff;
+
+}
+#about h2{
+    font-size: 4.8rem;
+}
+#about-text{
+    text-align: left;
+}
+#about-text .left{
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
+#about-text .right{
+    float: right;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 23rem;
+}
+#about-text .text{
+    font-size: 2rem;
 }
